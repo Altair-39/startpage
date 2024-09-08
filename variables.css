@@ -1,0 +1,52 @@
+:root {
+  --color-name: catppuccin-blue;
+  --color-bg-shade: #181825; /* Dark background with a hint of blue */
+  --color-bg-base: #1E1E2E;
+  --color-bg-surface: #24273A;
+  --color-bg-highlight: #2E3349;
+  --color-fg-shade: #A6ADC8; /* Soft, muted text for contrast */
+  --color-fg-base: #CDD6F4;
+  --color-fg-surface: #E6E9EF;
+  --color-fg-highlight: #F5F5F9;
+  --color-primary-bg: #1E66F5; /* Catppuccin blue */
+  --color-primary-base: #89B4FA;
+  --color-primary-fg: #A6C8FF;
+  --color-secondary-bg: #1E1E2E; /* Keeping secondary more muted but still cool-toned */
+  --color-secondary-base: #7AA2F7; /* Light blue accent */
+  --color-secondary-fg: #B4BEFE;
+
+  /** palette */
+  --color-palette-red: #F38BA8;
+  --color-palette-green: #A6E3A1;
+  --color-palette-yellow: #F9E2AF;
+  --color-palette-blue: #89B4FA; /* Core blue */
+  --color-palette-purple: #CBA6F7;
+  --color-palette-cyan: #94E2D5; /* Blue-green cyan accent */
+  --color-palette-orange: #FAB387;
+
+  /** general */
+  --font-family: Quicksand, sans-serif;
+  --font-size: 1rem;
+  --display-image: block;
+
+  /** surface */
+  --surface-maxWidth: 1100px;
+  --surface-shadow: 12px 12px 0px rgb(138, 173, 244),  /* Softer blue */
+                  24px 24px 0px rgb(130, 170, 242),
+                  36px 36px 0px rgb(122, 160, 240),
+                  48px 48px 0px rgb(114, 150, 238),
+                  60px 60px 0px rgb(106, 140, 236);
+  --surface-borderRadius: 21px;
+
+  /** spacing */
+  --space-smallest: 0.125rem;
+  --space-small: 0.5rem;
+  --space-medium: 1rem;
+  --space-large: 1.5rem;
+  --space-largest: 3rem;
+
+  /** others */
+  --picture-size: 300px;
+  --group-count: 2;
+}
+
