@@ -50,17 +50,24 @@ searchButton.onclick = search
 
 const bookmarks = [
   {"id":"RW4FdJdvUgTAzTf7","label":"University","bookmarks":[
+      {"id":"lTSwWR6y6D2i1QjV","label":"Unito","url":"https://idp.unito.it/idp/profile/SAML2/Redirect/SSO?execution=e1s2"},
       {"id":"zA1AYKtlsYuhN9Uf","label":"GitHub","url":"https://github.com/Luca-Barra"},
       {"id":"Xaz7JxQFZVVDWL5z","label":"Moodle","url":"https://informatica.i-learn.unito.it/"},
-      {"id":"lTSwWR6y6D2i1QjV","label":"Department","url":"https://informatica.unito.it/do/home.pl"},
       {"id":"lTSwWR6y6Dsw1Qj1","label":"Master's Degree","url":"https://magistrale.informatica.unito.it/do/home.pl"}
+  ]},
+  {"id":"LVuCOtZEj9ZJ4W4b","label":"Shopping","bookmarks":[
+      {"id":"p3YJ2vOLFYatMtW0","label":"EBay","url":"https://www.ebay.com/"},
+      {"id":"FhFFZRYsXTXqqyq6","label":"Amazon","url":"https://www.amazon.it/"},
+      {"id":"p3YJ2vOLFYqtMtE0","label":"Dokusho","url":"https://dokusho.it/"},
+      {"id":"M5L9IZ70KG1Bg4OH","label":"AliExpress","url":"https://it.aliexpress.com/?gatewayAdapt=glo2ita"}
   ]},
   {"id":"LVuCOtZEj9ZJ4W1b","label":"Utility","bookmarks":[
       {"id":"FhFFZRYsXTXqqyE6","label":"Email","url":"https://mail.google.com/mail/u/2/#inbox"},
       {"id":"M5L9IZ70KGnBg4OH","label":"Reddit","url":"https://www.reddit.com/"},
       {"id":"p3YJ2vOLFYatMtE0","label":"Discord","url":"https://discord.com/channels/@me"},
       {"id":"oPokkTOiCakQKlkr","label":"YouTube","url":"https://www.youtube.com"}
-  ]}]
+  ]},
+]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
