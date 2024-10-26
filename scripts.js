@@ -51,7 +51,7 @@ searchButton.onclick = search
 const bookmarks = [
   {"id":"RW4FdJdvUgTAzTf7","label":"University","bookmarks":[
       {"id":"lTSwWR6y6D2i1QjV","label":"Unito","url":"https://www.unito.it/"},
-      {"id":"zA1AYKtlsYuhN9Uf","label":"GitHub","url":"https://github.com/Luca-Barra"},
+      {"id":"zA1AYKtlsYuhN9Uf","label":"GitHub","url":"https://github.com/Altair-39"},
       {"id":"Xaz7JxQFZVVDWL5z","label":"Moodle","url":"https://informatica.i-learn.unito.it/"},
       {"id":"lTSwWR6y6Dsw1Qj1","label":"Master's Degree","url":"https://magistrale.informatica.unito.it/do/home.pl"}
   ]},
